@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  height: 55px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.header__left > :first-child {
+  color: gray !important;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  justify-content: center;
+}
+
+.header__input {
+  display: flex;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.header__input > input {
+  flex: 1;
+  outline: none;
+  border: none;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  border-right: 1px solid lightgray;
+}
+
+.header__searchButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  color: gray !important;
+  cursor: pointer;
+  height: 18px !important;
+  margin-bottom: -5px;
+}
+
+.header__searchMic {
+  color: darkslategrey !important;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  color: gray !important;
+  margin-right: 15px;
+}

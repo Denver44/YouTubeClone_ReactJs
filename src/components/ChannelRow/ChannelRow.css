@@ -1,0 +1,48 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.channelRow__center {
+  display: flex;
+  margin-left: -60px;
+  flex-direction: column;
+}
+
+.channelRow__info,
+.channelRow__desc {
+  color: #606068;
+  font-size: 12px;
+}
+.channelRow__logo {
+  height: 120px !important;
+  width: 120px !important;
+  margin: 15px;
+  margin-left: 120px;
+}
+
+.channelRow__channelName {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.channelRow__verified {
+  height: 15px !important;
+  width: 15px !important;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  color: black;
+}
+.channelRow__heading {
+  display: flex;
+  align-items: center;
+}
+
+.channelRow__button {
+  background-color: #f21f1f !important;
+  color: white !important;
+  width: 120px !important;
+  height: 30px !important;
+}

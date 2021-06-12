@@ -1,0 +1,6 @@
+.recommendation {
+  flex: 0.87;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(249,249,249)
+}
