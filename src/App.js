@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/YoutubeClone-React">
+          <Route exact path="/">
             <Header />
             <div className="app__page">
               <Sidebar />
